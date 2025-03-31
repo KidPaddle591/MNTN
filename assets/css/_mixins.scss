@@ -1,0 +1,8 @@
+@mixin a-header ($font-family-gb:$font-family-gilroy-bold, $font-weight:$font-weight-d, $font-size:$font-size-d, $color:$color-d){
+    font-family: $font-family-gb;
+    font-weight: $font-weight;
+    font-size: $font-size1125;
+    text-transform: capitalize;
+    $color: $color-d;
+    text-decoration: none;
+}

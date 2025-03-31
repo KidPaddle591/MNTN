@@ -1,0 +1,21 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+
+nav {
+    li{
+        display: inline-block;
+        margin-left: 1.5rem;
+        a{
+           @include a-header ($font-family-gb,$font-size1125,capitalize,$color-white,none); 
+        }
+    }
+}
+    
+header{
+    .column:last-child{
+        a{
+            @include a-header ($font-family-gb,$font-size1125,capitalize,$color-white,none); 
+        }
+    }
+}

@@ -1,0 +1,314 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*chargemment des polices*/
+
+@font-face {
+    font-family: 'chronicle-dsiplay';
+    src: url('../fonts/chronicle-display/chronicledisplayblack.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gilroy-regular';
+    src: url('../fonts/gilroy/gilroy-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'gilroy-bold';
+        src: url('../fonts/gilroy/gilroy-bold.ttf') format('ttf');
+        font-weight: normal;
+        font-style: normal;
+        }
+
+/* General*/
+body {
+    background-image: url("../images/background-image.png");
+    background-repeat: repeat-x;
+    background-size: contain ;
+}
+
+.logo {
+    font-family: "chronicle-display";
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: white;
+}
+
+/*Header*/
+header .container{
+    width:91.67%;
+    margin:auto;
+}
+
+header .row{
+    margin-top: 2rem;
+    color: white;
+}
+header .column{
+    display: inline-block;
+    width:33%;
+}
+/*
+header .column li{
+    display: inline-block;
+    margin-left: 1.5rem;
+}
+
+header a{
+    font-family: "gilroy-bold";
+    font-weight: 700;
+    font-size: 1.125rem;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+}*/
+
+header .column:last-child{
+    text-align: right;
+}
+
+header .column:nth-child(2){
+    text-align: center;
+}
+
+/****Section Banner****/
+
+.banner .container{
+    width:91.67%;
+    margin:auto;
+}
+.banner .row{
+    margin-top: 12rem;
+}
+.banner .column{
+    display: inline-block;
+}
+.banner .column:first-child{
+    width:20%;
+    font-family: "gilroy-regular";
+}
+.banner .column:nth-child(2){
+    width: 70%;
+    margin:auto;
+}
+
+.banner .column:nth-child(3){
+    width: 9%;
+    margin:auto;
+    text-align: right;
+    border-right: 3px solid lightgray;
+    padding-right: 1rem;
+    position:fixed;
+    font-family: "gilroy-regular";
+}
+
+.vertical{
+    transform: rotate(90deg);
+    transform-origin: bottom left;
+    margin-bottom: 5.5rem;
+    margin-left: 0.3rem;
+}
+.banner .column:first-child img{
+    margin-bottom: 1.5rem;
+}
+h1 {
+    text-transform: uppercase;
+    color: #FBD784;
+    font-family: "gilroy-regular";
+}
+
+h2{
+    text-transform: capitalize;
+    font-family: "chronicle-display";
+    color: white;
+    font-size: 4.5rem;
+    font-weight: 50;
+}
+
+.banner p{
+    color: white;
+}
+
+.banner .column:first-child img {
+    display: block;
+}
+
+.banner .column:first-child p {
+    display: block;
+}
+
+.banner .column:nth-child(2) p{
+    display: inline-block;
+    color: white;
+}
+
+.banner a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top:3rem;
+}
+
+
+/****Hikes****/
+
+/*set container*/
+.hikes .container{
+    width: 76.15%;
+    margin: auto;
+}
+/*set space betwen section 1 and 2*/
+.hikes .row:first-child{
+    margin-top: 35rem;
+}
+/*set space between card 1 and 2*/
+.hikes .row:nth-child(2){
+    margin-top: 10rem;
+}
+/*set space between card 2 and 3*/
+.hikes .row:last-child{
+    margin-top: 10rem;
+}
+/*peut-etre plus efficace avec une classe*/
+
+/*alignement of columns in eache cards*/
+.hikes .column{
+    display: inline-block;
+    vertical-align: middle;
+}
+/*settings for cards with image on the right*/
+.img-right .column:first-child{
+    width: 45%;
+    
+}
+.img-right .column:last-child{
+    width: 40%;
+    margin-left: 5.3rem;
+}
+
+/*settings for cards with image on the left*/
+.img-left .column:first-child{
+    width: 45%;
+}
+.img-left .column:last-child{
+    width: 40%;
+    margin-left: 5.3rem;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #FBD784;
+    font-family: "gilroy-regular";
+}
+
+h4{
+    font-family: "chronicle-display";
+    color: white;
+    font-size: 3.99rem;
+    font-weight: 50;
+    text-transform: capitalize;
+}
+
+.hikes {
+    background-color: #0a1d26;
+}
+
+.hikes p{
+    font-family: "gilroy-regular";
+    color: white;
+}
+
+.read-more-button{
+    display: inline-block;
+    margin-top: 1rem;
+    vertical-align: top;
+}
+
+.icon{
+    vertical-align: bottom;
+}
+
+/*align the pictures in the middle of its container vertically */
+.pictures{
+    vertical-align: middle;
+}
+
+.scrolldown{
+    vertical-align: middle;
+}
+/*****Footer****/
+
+footer {
+    background-color: #0a1d26;
+}
+footer .container{
+    width: 76.15%;
+    margin: auto;
+}
+footer .column{
+    display: inline-block;
+}
+
+footer .row{
+    height:35rem;
+    width:100%;
+    padding-top: 10rem;
+}
+
+footer p{
+    color : white;
+    font-family: gilroy-regular;
+    text-transform: capitalize;
+    margin-top: 2rem;
+}
+
+h5 {
+    font-family: gilroy-regular;
+    font-size: 24px;
+    color: #FBD784;
+    text-transform: capitalize;
+}
+
+footer .column:first-child{
+    width:50%;
+    text-align:left;
+    vertical-align: top;
+}
+
+footer .column:nth-child(2){
+    width:35%;
+    text-align:left;
+    font-family: gilroy-regular;
+    vertical-align: top;
+}
+
+footer .column:last-child{
+    width:14%;
+    text-align:left;
+    vertical-align: top;
+}
+
+footer .column:first-child p:last-child{
+    color: grey;
+    font-size: 0.8rem;
+    padding-top: 6rem;
+}
+
+
+
+/*****Notes****/
+
+/* 
+- numéros en back ground : position de la colonne de la card en relative et ensuite numéro en absolute avec reglage de la position par rapport au coin haut gauche de la colonne. Pas eu le temps de tester.
+
+-ligne avant les textes: creer une div vide avec une epaisseur de quelques pixels avec un background de la couleur du trait. Pas eu le temps de tester.
+
+-quelques ajustements manquant, techniquement pas très compliqué mais manque de temps
+*/
