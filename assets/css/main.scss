@@ -7,7 +7,7 @@ nav {
         display: inline-block;
         margin-left: 1.5rem;
         a{
-           @include a-header ($font-family-gb,$font-size1125,capitalize,$color-white,none); 
+           @include a-header ($font-family-gilroy-bold,$font-size1125,capitalize,$color-white,none); 
         }
     }
 }
@@ -15,7 +15,7 @@ nav {
 header{
     .column:last-child{
         a{
-            @include a-header ($font-family-gb,$font-size1125,capitalize,$color-white,none); 
+            @include a-header ($font-family-gilroy-bold,$font-size1125,capitalize,$color-white,none); 
         }
     }
 }
